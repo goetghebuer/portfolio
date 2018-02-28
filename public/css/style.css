@@ -1,0 +1,59 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background: none;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+li a i {
+    margin-right: 5px;
+}
+
+.navigateur {
+    padding: 45px 40px 0;
+}
+.logo a {
+    padding: 18px 16px;
+    position: absolute; 
+    color: white;
+}     
+
+.logo {
+    font-family: 22px;
+    }
+
+header {
+    background-image: url('../img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+
+
+}
+
+.navbar {
+    padding: 50px 0 30px;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+}
