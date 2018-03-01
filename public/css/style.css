@@ -3,7 +3,6 @@
 .menu {
     list-style-type: none;
     padding: 0;
-    overflow: hidden;
     background: none;
 }
 li {
@@ -15,22 +14,31 @@ li a {
     color: white;
     text-align: center;
     text-decoration: none;
-    padding: 18px 16px; 
+    padding: 5px 16px; 
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    
+}
+.hover:hover {
+    border-top: solid 1px white; 
+    border-bottom: solid 1px white;
+    color: white;
 }
 
-li a:hover {
-    background-color: white;
+.hover:hover {
+    color: white;
+    text-decoration: none;
 }
 
+.text1:hover {
+    color: white;
+    text-decoration: none;
+}
 .navigateur {
     padding: 30px 40px 0;
+    z-index: 9999;
 }
 
 .logo a {
-    padding: 10px 12px;
+    padding: 5px 12px;
     position: absolute; 
     color: white;
     font-size: 25px;
@@ -46,7 +54,7 @@ header {
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
-    overflow: hidden;
+
 }
 
 
@@ -76,6 +84,7 @@ header:after {
     top: 50%;
     left: 0;
     padding-top: 360px;
+    z-index: -1;
 }
 .caption {
      padding-top: 50px;
