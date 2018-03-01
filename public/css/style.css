@@ -1,3 +1,5 @@
+/* Navigation*/
+
 .menu {
     list-style-type: none;
     padding: 0;
@@ -35,7 +37,7 @@ li a:hover {
     font-weight: 700;
 }   
 
-
+/* Header */
 header {
     background-image: url('../img/bg1.jpg');
     background-repeat: no-repeat;
@@ -109,4 +111,19 @@ header:after {
     display: inline-block;
 } 
 
+/* Premiere partie */
 
+.section-border {
+    position: relative;
+    padding: 80px;
+}
+
+.content {
+    position: relative;
+    z-index: 9;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
