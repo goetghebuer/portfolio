@@ -131,8 +131,10 @@ header:before {
     padding: 40px;
     z-index: 0;
     position: absolute;
-    top: 15px;
-    left: 15px;
+    top: -25px;
+    left: -28px;
+    width: 102%;
+    height: 103%;
 }
 
 
@@ -154,3 +156,4 @@ header:before {
     margin-left: -30px;
     margin-right: -40px;
  }
+
