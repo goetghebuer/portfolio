@@ -154,8 +154,28 @@ header:before {
     width: 102%;
     height: 103%;
 }
+/* Section 2 */
+.section-border1 {
+    content: "";
+    border: 10px solid white;
+    padding: 40px;
+    z-index: 0;
+    position: relative;
+}
 
-
+/* section 2*/
+.section-border1:before {
+    content: "";
+    border: 10px solid white;
+    padding: 40px;
+    z-index: 0;
+    position: absolute;
+    top: -25px;
+    left: -28px;
+    width: 102%;
+    height: 103%;
+}
+/* global -- */
  .main-title {
      font-size: 44px;
      font-weight: 900;
@@ -302,9 +322,48 @@ header:before {
     margin-top: 100px;
 }
 
+.bordure {
+    border: 1px solid rgba(221, 209, 209, 0.7);
+}
+
+
 .item-nb {
     text-align: center;
     position: relative;
-    border: 1px solid black;
-    padding: 15px 15px 20px; 
+    border: 1px solid rgba(221, 209, 209, 0.7);
+    padding: 20px 30px 25px; 
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAsewome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.icon {
+    font-size: 30px;
+    position: absolute;
+    width: 60px;
+    left: calc(50% - 30px);
+    bottom: -25px;
+    background: #f7f7f7;
+}
+
+.counter {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.section {
+    background: #f7f7f7;
+    padding: 80px;
+}
+
+.section-nb {
+    padding: 10px;
+    margin: 35px;
+
 }
