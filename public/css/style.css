@@ -248,6 +248,7 @@ header:before {
     justify-content: center;
 }
 
+/* Chargement */
 .skills-progress {
     width: 100%;
     height: 15px;
@@ -275,7 +276,7 @@ header:before {
 }
 
 
-/* chargement */
+/* chargement animation */
 
 .animation{ animation: animation 1s; 
     animation-iteration-count: 1;
@@ -290,28 +291,20 @@ header:before {
                 }
 
                 100% {
-                    width: 50%;}
+                    width: 80%;}
             
                 }
-   
-
- .animation1{ animation: animation 1s; 
-                    animation-iteration-count: 1;
-                    animation-fill-mode: forwards;
-                    }
-                
-                            
-                @keyframes animation1{
-                            
-                                90% {
-                                    width:0%;
-                                }
-                
-                                100% {
-                                    width: 95%;}
-                            
-                                }
 
 
-            
-             
+/* les nombres */
+
+.numbers {
+    margin-top: 100px;
+}
+
+.item-nb {
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+    padding: 15px 15px 20px; 
+}
