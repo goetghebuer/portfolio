@@ -198,6 +198,27 @@ header:before {
     height: 102%;
 }
 
+/* Section 4 */
+.section-border4 {
+    content: "";
+    border: 10px solid white;
+    padding: 40px;
+    z-index: 0;
+    position: relative;
+}
+
+/* section 4 */
+.section-border4:before {
+    content: "";
+    border: 10px solid white;
+    padding: 40px;
+    z-index: 0;
+    position: absolute;
+    top: -25px;
+    left: -28px;
+    width: 102%;
+    height: 102%;
+}
 /* global -- */
  .main-title {
      font-size: 44px;
@@ -284,9 +305,10 @@ header:before {
   .title {
     font-size: 44px;
     font-weight: 900;
-    color: #ccc;
+    color: #999;
     opacity: .8;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+
     display: flex;
     justify-content: center;
 }
@@ -430,19 +452,26 @@ header:before {
     color: #7e7e7e;
     font-family: 'Open Sans', sans-serif;
 }
-.resume .item {
+
+#resume .item {
     position: relative;
 }
-.resume .item:after {
+
+#resume .item:after {
     content: "";
     position: absolute;
     top: 5px;
-    left: -54px;
+    left: -52px;
     width: 6px;
     height: 6px;
     border-radius: 50%;
     background: #888;
 }
+
+#resume .column-left .item:after {
+    left: calc(100% + 48px);
+}
+
 .date {
     font-size: 13px;
     margin-bottom: 15px;
@@ -454,3 +483,88 @@ header:before {
     letter-spacing: 1px;
     font-size: 14px;
 }
+
+
+  .icon1 {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 50%;
+      color: #fff;
+      background: #3b414c;
+      position: absolute;
+      top: -20px;
+      right: 21px;
+  }
+
+  .icon2 {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #3b414c;
+    position: absolute;
+    top: -20px;
+    left: -4px;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Fin resumer */ 
+/* Service */ 
+#service .item {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+#service .item .icon {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.icon3 {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    color: #fff;
+    background: #3b414c;
+}
+#service p {
+    line-height: 1.8;
+    margin: 0;
+    font-size: 14px;
+    color: #7e7e7e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#service h6 {
+    margin-bottom: 15px;
+}
+
+
+/* Portfolio */ 
+
+}
+.gallery {
+    display: flex;
+}
+.img-port {
+    width: 75%;
+    height: 75%;
+}
+
+/* Fin PortFolio /
