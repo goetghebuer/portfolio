@@ -254,11 +254,7 @@ header:before {
     width: 102%;
     height: 103%;
 }
-
-
-
-
-
+/* Body */
 /* global -- */
  .main-title {
      font-size: 44px;
@@ -274,7 +270,7 @@ header:before {
      justify-content: center;
  }
 
-
+/* --------------- */
  /* Section 1 */
 
  .espace {
@@ -560,6 +556,7 @@ header:before {
     justify-content: center;
 }
 
+/* ------------------------------ */ 
 /* Fin resumer */ 
 /* Service */ 
 #service .item {

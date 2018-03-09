@@ -1,0 +1,107 @@
+#resumer
+    padding: 80px 0
+
+.resume
+    justify-content: center
+    display: flex
+
+.item
+    position: relative
+    margin-bottom: 50px
+
+.column-left
+    width: 95%
+    padding-top: 30px
+    padding-right: 50px
+    border-right: 2px solid #eee
+    text-align: right
+
+.column-right
+    width: 95%
+    padding-top: 30px
+    padding-left: 50px
+    border-left: 2px solid #eee
+    text-align: left
+
+.text-p
+    line-height: 1.8
+    margin: 0
+    font-size: 14px
+    color: #7e7e7e
+    font-family: 'Open Sans', sans-serif
+
+#resumer .item
+    position: relative
+
+#resumer .item:after
+    content: ""
+    position: absolute
+    top: 5px
+    left: -52px
+    width: 5px
+    height: 5px
+    border-radius: 50%
+    background: rgb(136,136,136)
+
+#resumer .column-left .item:after
+    left: calc(100% + 48px)
+
+.date
+    font-size: 13px
+    margin-bottom: 15px
+
+.sm-titl
+    text-transform: uppercase
+    font-weight: 500
+    letter-spacing: 1px
+    font-size: 14px
+
+.icon1
+    width: 40px
+    height: 40px
+    line-height: 40px
+    text-align: center
+    border-radius: 50%
+    color: #fff
+    background: #3b414c
+    position: absolute
+    top: -20px
+    right: 21px
+
+.icon2
+    width: 40px
+    height: 40px
+    line-height: 40px
+    text-align: center
+    border-radius: 50%
+    color: #fff
+    background: #3b414c
+    position: absolute
+    top: -20px
+    left: -4px
+
+.btn1
+    display: flex
+    justify-content: center
+
+    /* Bordure - autour */
+
+.section-border3
+    content: ""
+    border: 10px solid #f4f4f4
+    padding: 40px
+    z-index: 0
+    position: relative
+
+.section-border3:before
+    content: ""
+    border: 10px solid #f4f4f4
+    padding: 40px
+    z-index: 0
+    position: absolute
+    top: -25px
+    left: -28px
+    width: 102%
+    height: 102%
+
+

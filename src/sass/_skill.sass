@@ -1,0 +1,104 @@
+/* chargement */
+
+.skills-progress
+    width: 100%
+    height: 15px
+    padding: 1px
+    line-height: 0
+    background: #fff
+    border: 1px solid #eee
+
+.skills-progress span 
+    height: 100%
+    width: 0
+    background: #3b414c
+    position: relative
+    border-radius: 10px
+    transition: all .7s linear
+
+.skills-progress span:after
+    content: attr(data-value)
+    position: absolute
+    top: -20px
+    right: 0
+    font-size: 10px
+
+/* Animation */
+
+.animation
+    animation: animation 1s
+    animation-iteration-count: 1
+    animation-fill-mode: forwards
+
+@keyframes animation
+
+    0%
+        width: 0%
+
+    100%
+        width: 90%
+
+
+/* nombre */
+
+.numbers
+    margin-top: 100px
+
+.bordure
+    border: 1px solid rgba(221,209,209,0.7)
+
+.item-nb
+    text-align: center
+    position: relative
+    border: 1px solid rgba(221,209,209,0.7)
+    padding: 20px 30px 25px
+
+.fa
+    display: inline-block
+    font: normal normal normal 14px*1 FontAsewome
+    font-size: inherit
+    text-emphasis: auto
+    -webkit-font-smoothing: antialased
+
+.icon
+    font-size: 30px
+    position: absolute
+    width: 60px
+    left: calc(50% - 30px)
+    bottom: -25px
+    background: #f7f7f7
+
+.counter
+    margin-bottom: 10px
+    font-size: 22px
+    font-weight: 900
+
+.section
+    background: #f7f7f7
+    padding: 80px
+
+.section-nb
+    padding: 10px
+    margin: 35px
+
+/* Bordure - autour */ 
+.section-border1 
+    content: ""
+    border: 10px solid white
+    padding: 40px
+    z-index: 0
+    position: relative
+
+.section-border1:before
+    content: ""
+    border: 10px solid white
+    padding: 40px
+    z-index: 0
+    position: absolute
+    top: -25px
+    left: -28px
+    width: 102%
+    height: 103%
+
+
+    
