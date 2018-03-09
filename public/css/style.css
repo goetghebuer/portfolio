@@ -6492,7 +6492,7 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #ddd !important; } }
 .main-title {
   font-size: 44px;
-  font-weight: 900;
+  font-weight: 900 !important;
   color: #ccc;
   opacity: 0.8;
   margin-bottom: 30px; }
@@ -7081,5 +7081,23 @@ span {
   left: -28px;
   width: 102%;
   height: 102%; }
+
+.menu-p {
+  margin-bottom: 50px; }
+
+#portfolio .menu-p .active {
+  color: #3b414c;
+  border-top: 1px solid #3b414c;
+  border-bottom: 1px solid #3b414c; }
+
+#portfolio .menu-p span {
+  padding: 8px 10px;
+  margin: 0 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative; }
 
 /*# sourceMappingURL=style.css.map */

@@ -235,27 +235,6 @@ span {
     height: 102%;
 }
 
-/* section 5*/
-.section-border5 {
-    content: "";
-    border: 10px solid #f4f4f4;
-    padding: 40px;
-    z-index: 0;
-    position: relative;
-}
-
-.section-border5:before {
-    content: "";
-    border: 10px solid #f4f4f4;
-    padding: 40px;
-    z-index: 0;
-    position: absolute;
-    top: -25px;
-    left: -28px;
-    width: 102%;
-    height: 103%;
-}
-
 /* Body */
 /* global -- */
 .main-title {
