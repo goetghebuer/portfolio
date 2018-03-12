@@ -6937,8 +6937,7 @@ span {
   font-family: "Open-Sans", sans-serif; }
 
 #service h6 {
-  margin-bottom: 15px;
-  /* Bordure - autour */ }
+  margin-bottom: 15px; }
 
 .section-border4 {
   content: "";
@@ -6957,6 +6956,10 @@ span {
   left: -28px;
   width: 102%;
   height: 102%; }
+
+#service .container h4 {
+  display: flex;
+  justify-content: center; }
 
 /* Portfolio */
 #portfolio {
