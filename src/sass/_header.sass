@@ -1,68 +1,63 @@
-li a 
+li a
     display: block
     color: white
     text-align: center
     text-decoration: none
     padding: 5px 16px
-    font-family: 'Montserrat', sans-serif
+    font-family: "Montserrat", sans-serif
 
-.hover:hover 
+.hover:hover
     border-top: solid 1px white
     border-bottom: solid 1px white
     color: white
     text-decoration: none
 
-
-.text1:hover 
-    color: white 
+.text1:hover
+    color: white
     text-decoration: none
 
-.navigateur 
+.navigateur
     padding: 30px 40px 20px
     height: 100px
     list-style-type: none
     display: flex
 
-.logo a 
+.logo a
     margin-top: -10px
     color: white
     position: relative
     font-size: 25px
-    font-weight: 700 
+    font-weight: 700
     text-decoration: none
     z-index: 1
 
-#header 
-    background-image: url('../../public/img/bg1.jpg')
+#header
+    background-image: url("../../public/img/bg1.jpg")
     background-repeat: no-repeat
     position: relative
     height: 100vh
     width: 100%
     background-size: cover
     background-attachment: fixed
-    display: flex
-    flex-direction: column
 
+    &::before
+        content: ""
+        position: absolute
+        right: 0
+        left: 0
+        bottom: 0
+        background: rgba(0, 0, 0, 0.5)
 
-header:before 
-    content: ""
-    position: absolute
-    right: 0
-    left: 0
-    bottom: 0
-    background: rgba(0, 0, 0, 0.522)
-    z-index: 1
-
-.navbar 
+.navbar
     padding: 20px 0 20px
-    position: absolute 
+    position: absolute
     width: 100%
     z-index: 50
     display: flex
     flex-wrap: wrap
     justify-content: center
 
-.title-header 
+.title-header
     font-weight: 900
     font-size: 70px
     text-transform: uppercase
@@ -70,21 +65,19 @@ header:before
     margin: 30px auto
     color: white
 
-.texthead 
+.texthead
     text-align: center
-    flex: 1
     align-items: center
-    justify-content: center 
+    justify-content: center
     top: 50%
     position: relative
-    z-index: 4
 
-.sub-title 
+.sub-title
     font-size: 16px
     letter-spacing: 1px
     font-weight: 600
 
-.console-container 
+.console-container
     font-family: Khula
     font-size: 4em
     text-align: center
@@ -95,27 +88,25 @@ header:before
     right: 0
     margin: auto
 
-
-.console-underscore 
+.console-underscore
     display: inline-block
     position: relative
     top: -0.14em
     left: 10px
 
-span 
+span
     display: inline-block
-    font-family: 'montsurrat', sans-serif
+    font-family: "montsurrat", sans-serif
     color: #a7a7a7
     font-weight: 400
 
-
-.animate 
+.animate
     letter-spacing: 1px
     font-size: 22px
     font-weight: 300
     padding-right: 10px
     display: inline-block
 
-.bordure 
+.bordure
     border-bottom: 1px solid white
-    border-top: 1px solid white 
+    border-top: 1px solid white

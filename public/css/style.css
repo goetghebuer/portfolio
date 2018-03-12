@@ -6559,18 +6559,14 @@ li a {
   height: 100vh;
   width: 100%;
   background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column; }
-
-header:before {
-  content: "";
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.522);
-  z-index: 1; }
+  background-attachment: fixed; }
+  #header::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); }
 
 .navbar {
   padding: 20px 0 20px;
@@ -6591,12 +6587,10 @@ header:before {
 
 .texthead {
   text-align: center;
-  flex: 1;
   align-items: center;
   justify-content: center;
   top: 50%;
-  position: relative;
-  z-index: 4; }
+  position: relative; }
 
 .sub-title {
   font-size: 16px;
@@ -7102,5 +7096,9 @@ span {
   text-transform: uppercase;
   cursor: pointer;
   position: relative; }
+
+#blog .container h4 {
+  display: flex;
+  justify-content: center; }
 
 /*# sourceMappingURL=style.css.map */
